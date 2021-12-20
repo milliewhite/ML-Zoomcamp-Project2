@@ -27,8 +27,8 @@ Script train.py
 * From one terminal session run the following command to host the prediction model as a web service.
 ```pipenv run gunicorn --bind 0.0.0.0:9696 predict:app```
 
-From other terminal session from the cloned project directory, execute the following command to make a request to this web service
-```python request.py```
+* From other terminal session from the cloned project directory, execute the following command to make a request to this web service
+* ```python request.py```
 
 # Deploy model as a web service to Docker container
 * Navigate to the folder with the files
