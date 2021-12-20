@@ -4,7 +4,7 @@ Predicting the development of diabetes in a patient given certain features using
 
 # The Files Explained
 
-*Notebook (suggested name - notebook.ipynb) with
+* Notebook (suggested name - notebook.ipynb) with
 Data preparation and data clearning
 EDA, feature importance analysis
 
@@ -13,13 +13,13 @@ Script train.py
 -Training the final model
 -Saving it to a file (e.g. pickle called model.bin)
 
-*Script predict.py 
+* Script predict.py 
 -Loading the model
 -Serving it via a web serice (e.g. with Flask)
 
-*Pipenv and Pipenv.lock
+* Pipenv and Pipenv.lock
 
-*Dockerfile for running the service
+* Dockerfile for running the service
 
 #Model deployment as a web service on local machine
 
