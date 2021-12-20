@@ -4,18 +4,18 @@ Predicting the development of diabetes in a patient given certain features using
 
 # The Files Explained
 
-* Notebook (suggested name - notebook.ipynb) with
-Data preparation and data clearning
-EDA, feature importance analysis
+* Notebook (notebook.ipynb)
+  *Data preparation and data clearning
+  *EDA, feature importance analysis
 
 * Model selection process and parameter tuning
-Script train.py
--Training the final model
--Saving it to a file (e.g. pickle called model.bin)
+  *Script train.py
+  *Training the final model
+  *Saving it to a file (e.g. pickle called model.bin)
 
 * Script predict.py 
--Loading the model
--Serving it via a web serice (e.g. with Flask)
+  *Loading the model
+  *Serving it via a web serice (e.g. with Flask)
 
 * Pipenv and Pipenv.lock
 
